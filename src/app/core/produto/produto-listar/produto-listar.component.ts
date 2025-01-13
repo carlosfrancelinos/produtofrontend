@@ -40,10 +40,10 @@ export class ProdutoListarComponent implements OnInit {
   }
 
   produtoDetails(id: string){
-    this.router.navigate([`produto/${id}`]);
+    this.router.navigate([`produto/detalhar/${id}`]);
   }
 
   updateProduto(id: string){
-    this.router.navigate([`update/${id}`]);
+    this.router.navigate([`produto/atualizar/${id}`]);
   }
 }

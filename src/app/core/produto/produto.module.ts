@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {ProdutoCadastrarComponent} from './produto-cadastrar/produto-cadastrar.component';
 import {ProdutoListarComponent} from './produto-listar/produto-listar.component';
+import {ProdutoDetalharComponent} from './produto-detalhar/produto-detalhar.component';
 
 
 
@@ -9,12 +10,14 @@ import {ProdutoListarComponent} from './produto-listar/produto-listar.component'
   declarations: [],
   exports: [
     ProdutoCadastrarComponent,
-    ProdutoListarComponent
+    ProdutoListarComponent,
+    ProdutoDetalharComponent
   ],
   imports: [
     CommonModule,
     ProdutoCadastrarComponent,
-    ProdutoListarComponent
+    ProdutoListarComponent,
+    ProdutoDetalharComponent
   ]
 })
 export class ProdutoModule { }

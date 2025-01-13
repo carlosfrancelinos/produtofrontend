@@ -29,7 +29,6 @@ export class ProdutoAtualizarComponent implements OnInit {
 
     this.produtoService.getProduto(this.id)
       .subscribe(data => {
-        console.log(data)
         this.produto = data;
       }, error => console.log(error));
   }
@@ -47,6 +46,6 @@ export class ProdutoAtualizarComponent implements OnInit {
   }
 
   gotoList() {
-    this.router.navigate(['/produtos']);
+    this.router.navigate(['']);
   }
 }

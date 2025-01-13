@@ -32,6 +32,6 @@ export class ProdutoDetalharComponent implements OnInit {
   }
 
   list(){
-    this.router.navigate(['produtos']);
+    this.router.navigate(['']);
   }
 }

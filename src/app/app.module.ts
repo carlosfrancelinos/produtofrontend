@@ -2,6 +2,7 @@ import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import {ProdutoModule} from './core/produto/produto.module';
+import {AppRoutingModule} from './app-rounting.module';
 
 
 
@@ -10,7 +11,8 @@ import {ProdutoModule} from './core/produto/produto.module';
   imports: [
     BrowserModule,
     CommonModule,
-    ProdutoModule
+    ProdutoModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [],

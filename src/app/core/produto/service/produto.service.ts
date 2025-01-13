@@ -21,7 +21,7 @@ export class ProdutoService {
   }
 
   updateProduto(id: string | undefined, value: any): Observable<Object> {
-    return this.http.put(`${this.baseUrl}/${id}`, value);
+    return this.http.put(`${this.baseUrl}/produto/${id}`, value);
   }
 
   deleteProduto(id: string): Observable<any> {
