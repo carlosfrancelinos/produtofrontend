@@ -46,4 +46,8 @@ export class ProdutoListarComponent implements OnInit {
   updateProduto(id: string){
     this.router.navigate([`produto/atualizar/${id}`]);
   }
+
+  home(){
+    this.router.navigate(['']);
+  }
 }

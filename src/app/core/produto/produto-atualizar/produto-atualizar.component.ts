@@ -46,6 +46,6 @@ export class ProdutoAtualizarComponent implements OnInit {
   }
 
   gotoList() {
-    this.router.navigate(['']);
+    this.router.navigate(['produto/listar']);
   }
 }

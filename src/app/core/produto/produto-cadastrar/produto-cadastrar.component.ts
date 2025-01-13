@@ -41,6 +41,10 @@ export class ProdutoCadastrarComponent implements OnInit {
   }
 
   gotoList() {
-    this.router.navigate(['/produtos']);
+    this.router.navigate(['produto/listar']);
+  }
+
+  home(){
+    this.router.navigate(['']);
   }
 }
